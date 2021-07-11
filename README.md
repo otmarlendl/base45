@@ -7,9 +7,13 @@ This package contains two very basic C programs that act as a unix-style filter,
 
 I consider this a stop-gap code for decoding such QR-codes. Long term, base45 should probably be integrated into GNU Coreutils.
 
-# Compilation
+# Fetch & Compile
 These are very basic POSIX C programs, a simple
+
+`git clone https://github.com/otmarlendl/base45`
+
+`cd base45`
 
 `make all`
 
-should suffice.
+should suffice. No script is provided to install the resulting binaries. I recommend copying them to /usr/local/bin.
